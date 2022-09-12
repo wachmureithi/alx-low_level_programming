@@ -1,20 +1,38 @@
-#include <stdio.h>
+#include <stdio.h>                                                                                                            
 
-/**
-*Entry point 
-*main - print the string in the printf function
-*Description: using the main function
-*this program prints the size of types of variable
-* Return: 0
-*/
+                                                                                                                              
 
-int main(void)
-{
-char c;
-int i;
-long li;
-long long lli;
-float f;
+/**                                                                                                                           
+
+*main - print the string in the printf function                                                                               
+
+*                                                                                                                             
+
+*Description: using the main function                                                                                         
+
+*this program prints the size of types of variable                                                                            
+
+*Return: 0                                                                                                                    
+
+*/                                                                                                                            
+
+                                                                                                                              
+
+int main(void)                                                                                                                
+
+{                                                                                                                             
+
+char c;                                                                                                                       
+
+int i;                                                                                                                        
+
+long int li;                                                                                                                  
+
+long long lli;                                                                                                                
+
+float f;                                                                                                                      
+
+                                                                                                                              
 
 printf("Size of a char: %ld byte(s)\n", sizeof(c));
 printf("Size of an int: %ld byte(s)\n", sizeof(i));

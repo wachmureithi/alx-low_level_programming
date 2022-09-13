@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
-* function that prints the alphabet, in lowercase, followed by a new line.
+* print_alphabet - entry point
 * 
-* Return: Always 0
+* Description: Prints the alphabet with _putchar
+* 
+* Return: void
 */
 
 void print_alphabet(void)
 {
-	char alp = 'a';
-	while (alp <= 'z')
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (alp);
-		alp++;
+		_putchar(c);
 	}
-	_putchar ('\n');
+	_putchar('\n');
 }

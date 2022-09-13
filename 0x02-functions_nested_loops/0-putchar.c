@@ -2,19 +2,14 @@
 
 /**
 * -putchar-- print _putchar
-*  _putchar the text to print
 *
+* _putchar the text to print
+* 
 * Return: On success 0
+*
 * Description: This program prints _putchar
 */
-int main(void)
+Int  _putchar(char c)
 {
-char *c ="_putchar";
-while (*c)
-{
-_putchar(*c);
-c++;
-}
-_putchar('\n');
-return (0);
+return  (write(1, &c, 1);
 }

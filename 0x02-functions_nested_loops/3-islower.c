@@ -1,20 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - prints the alphabets in lower case
- * @alpha: number or an alphabet
- * Returns 1 if c is lowercase
- * Returns 0 otherwise
+ *  _islower - checks for lowercase character
+ * @c: the character to check
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 
 int _islower(int c)
 {
-	if (c  >= 'a' && alpha  <= 'z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return (c >= 'a' && c <= 'z');
 }

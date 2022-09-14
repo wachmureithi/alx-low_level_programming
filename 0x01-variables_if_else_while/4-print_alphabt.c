@@ -1,14 +1,14 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase, followed by a new line
-* 
-* Return: Always 0 (Success)
-*/
+ * main - print lowercase alpha from a to z but don't include q and e
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	char letter = 'a';
-	
+
 	while (letter <= 'z')
 	{
 		if ((letter != 'q') && (letter != 'e'))
@@ -18,5 +18,6 @@ int main(void)
 		letter++;
 	}
 	putchar('\n');
+
 	return (0);
 }

@@ -1,9 +1,8 @@
-#include "main.h"
+#include "main.h" 
 
 /**
- * main - Entry Point 
- * function that prints _putchar
- * Return: 0 if successful
+ * main - program that prints _putchar, followed by a new line
+ * Return: returns 0 if successful
  */
 
 int main(void)

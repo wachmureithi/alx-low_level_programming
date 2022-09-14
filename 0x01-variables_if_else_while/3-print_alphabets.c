@@ -3,14 +3,15 @@
 #include <time.h>
 /**
 * main - returns alphabets both in lower and uppercase
-* Returns: o (successful)
+*
+* Return: returns 0 (successful)
 */
 int main(void)
 {
 	int ch = 'a';
 	int CH = 'A';
 
-	while (ch < 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
@@ -21,5 +22,5 @@ int main(void)
 		CH++;
 	}
 		putchar('\n');
-		return (0);
+	return (0);
 }

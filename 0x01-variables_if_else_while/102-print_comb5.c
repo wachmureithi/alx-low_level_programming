@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * main - program that prints all possible combinations of two two-digit numbers
+ * main - prints all possible combinations of two two-digit numbers
  * Return: return 0 if successful
  */
 
 int main(void)
 {
 	int i, j;
-	
+
 	for (i = 0; i < 100; i++)
 	{
 		for (j = 0; j < 100; j++)

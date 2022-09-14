@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
-* main-Entry point
-*
-* Return: 0 if successful
-*/
+ * main - Entry Point 
+ * function that prints _putchar
+ * Return: 0 if successful
+ */
+
 int main(void)
 {
-	char putchar('_');
-	char putchar('p');
-	char putchar('u');
-	char putchar('t');
-	char putchar('c');
-	char putchar('h');
-	char putchar('a');
-	char putchar('r');
-	char putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
